@@ -48,23 +48,27 @@ Colomns:
 
 ---
 
-## Data Cleaning & Preparation (SQL)
-- Handled missing and null values  
-- Standardized categorical variables  
-- Created a churn flag for analysis  
-- Removed duplicates and ensured data consistency  
+## 🗄 SQL Workflow
 
----
+The SQL analysis is divided into three stages:
 
-## Exploratory Data Analysis (SQL)
-Key analyses performed:
+- **Data Exploration**
+  - Initial inspection of dataset structure and quality  
+  - Identification of missing values and anomalies  
+
+- **Data Cleaning**
+  - Handling null values  
+  - Standardizing and transforming variables  
+
+- **Data Analysis**
+  Key analyses performed:
 - Churn rate by contract type  
 - Churn vs tenure distribution  
 - Impact of monthly charges on churn  
 - Churn by payment method and services (Internet and Phone)
 - Churn by demographics (patenr, gender etc)
-- Characteristics of churn customers (tenure/monhtly payments etc)
-  
+- Characteristics of churn customers (tenure/monhtly payments etc) 
+
 ---
 
 ## Power BI Dashboard
