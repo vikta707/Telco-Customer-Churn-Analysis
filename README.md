@@ -112,6 +112,8 @@ Identifies the effect of protection services on churn rate by billing method and
 - Review pricing strategies for high-charge customers
 - Offer protection service package that includes all or mutiple protection services
 
+---
+
 ## What I Learned
 - Writing efficient SQL queries for real-world datasets  
 - Transforming raw data into actionable insights  
