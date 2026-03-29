@@ -52,15 +52,15 @@ Colomns:
 
 The SQL analysis is divided into three stages:
 
-- **Data Exploration**
+ **Data Exploration**
   - Initial inspection of dataset structure and quality  
   - Identification of missing values and anomalies  
 
-- **Data Cleaning**
+ **Data Cleaning**
   - Handling null values  
   - Standardizing and transforming variables  
 
-- **Data Analysis**
+ **Data Analysis**
   Key analyses performed:
 - Churn rate by contract type  
 - Churn vs tenure distribution  
