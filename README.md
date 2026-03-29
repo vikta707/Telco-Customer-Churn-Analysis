@@ -13,7 +13,7 @@ This project performs an end-to-end analysis of customer churn in a telecom comp
 
 ---
 
-## Tools & Technologies
+## Tools
 - **SQL** – Data cleaning, transformation, and analysis  
 - **Power BI** – Data visualization and dashboard creation  
 - **Excel / CSV** – Dataset handling  
