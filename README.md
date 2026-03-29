@@ -1,17 +1,32 @@
 # Telco Customer Churn Analysis
 
 ## Project Overview
-This project performs an end-to-end analysis of customer churn in a telecom company using SQL and Power BI. The objective is to identify key factors influencing customer churn and provide actionable insights to improve retention.
+This project performs an end-to-end analysis of customer churn for a telecom company using SQL and Power BI. The goal is to identify why customers leave and provide actionable insights to improve retention.
+
+---
+
+## Key Insights
+- Month-to-month contracts have the highest churn rates.  
+- High monthly charges combined with low tenure create the highest-risk customer segment.  
+- Electronic check users churn more frequently, suggesting payment friction.  
+- Customers with multiple protection services churn less, indicating service bundling improves retention.  
+- Paperless billing shows higher churn rates.  
+
+---
+
+## Business Impact
+This analysis helps the company target high-risk customers, reduce churn, and improve revenue retention through data-driven strategies.
 
 ---
 
 ## Objectives
-- Analyse customer behaviour and churn patterns  
-- Identify high-risk customer segments  
-- Determine key drivers of churn  
-- Provide data-driven business recommendations  
+- Analyse customer behaviour and churn patterns.  
+- Identify high-risk customer segments.  
+- Determine key drivers of churn.  
+- Provide actionable business recommendations.  
 
 ---
+
 
 ## Tools
 - **SQL** – Data cleaning, transformation, and analysis  
@@ -21,7 +36,7 @@ This project performs an end-to-end analysis of customer churn in a telecom comp
 ---
 
 ## Dataset
-Source: Kaggle – Telco Customer Churn Dataset
+Source: Kaggle – Telco Customer Churn Dataset (~7,000 customers, 21 features) 
 
 The dataset includes:
 - Customer demographics (gender, senior citizen, etc.)
@@ -31,7 +46,6 @@ The dataset includes:
 
 
 ## SQL Workflow
-
 The SQL analysis is divided into three stages:
 
  **Data Exploration**
@@ -49,8 +63,9 @@ The SQL analysis is divided into three stages:
 - Impact of monthly charges on churn  
 - Churn by payment method and services (Internet and Phone)
 - Churn by demographics (partner, gender etc)
-- Characteristics of churn customers (tenure/monthly payments etc) 
-
+- Characteristics of churn customers (tenure/monthly payments etc)
+   
+>NOTE: All SQL queries used in this project are included in the `sql` folder.  
 ---
 
 ## Power BI Dashboard
@@ -77,21 +92,12 @@ Identifies the effect of protection services on churn rate by billing method and
 
 ---
 
-## Key Insights
-- Customers on month-to-month contracts churn at significantly higher rates than long-term contracts
-- Customers with high monthly charges and low tenure are the highest-risk segment
-- Electronic check users show consistently higher churn, suggesting payment friction
-- Customers with multiple protection services have significantly lower churn, indicating service bundling improves retention
-- Paperless billing has higher churn rates
-  
----
-
 ## Business Recommendations
-- Encourage customers to switch to long-term contracts  
-- Offer targeted retention incentives for high-risk segments  
-- Improve onboarding experience for new customers  
-- Review pricing strategies for high-charge customers
-- Offer protection service package that includes all or multiple protection services
+- Promote month-to-month customers to switch to long-term contracts to reduce churn.  
+- Offer retention incentives for high-risk, high-charge, short-tenure customers.  
+- Improve onboarding experience for new customers to reduce early churn.  
+- Review pricing strategies for high-charge customers.  
+- Offer bundled protection service packages to reduce churn.  
 
 ---
 
