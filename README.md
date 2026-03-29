@@ -48,7 +48,7 @@ Colomns:
 
 ---
 
-## 🗄 SQL Workflow
+## SQL Workflow
 
 The SQL analysis is divided into three stages:
 
