@@ -6,7 +6,7 @@ This project performs an end-to-end analysis of customer churn in a telecom comp
 ---
 
 ## Objectives
-- Analyze customer behavior and churn patterns  
+- Analyse customer behaviour and churn patterns  
 - Identify high-risk customer segments  
 - Determine key drivers of churn  
 - Provide data-driven business recommendations  
@@ -22,31 +22,13 @@ This project performs an end-to-end analysis of customer churn in a telecom comp
 
 ## Dataset
 Source: Kaggle – Telco Customer Churn Dataset
-   
-Colomns:
-- customerID
-- gender: Whether the customer is a male or a female
-- SeniorCitizen: Whether the customer is a senior citizen or not (1, 0)
-- Partner: Whether the customer has a partner or not (Yes, No)
-- Dependents: Whether the customer has dependents or not (Yes, No)
-- tenure: Number of months the customer has stayed with the company
-- PhoneService: Whether the customer has a phone service or not (true, false)
-- MultipleLines: Whether the customer has multiple lines or not (Yes, No, No phone service)
-- InternetService: Customer’s internet service provider (DSL, Fiber optic, No)
-- OnlineSecurity: Whether the customer has online security or not (Yes, No, No internet service)
-- OnlineBackup: Whether the customer has online backup or not (Yes, No, No internet service)
-- DeviceProtection: Whether the customer has device protection or not (Yes, No, No internet service)
-- TechSupport: Whether the customer has tech support or not (Yes, No, No internet service)
-- StreamingTV: Whether the customer has streaming TV or not (Yes, No, No internet service)
-- StreamingMovies: Whether the customer has streaming movies or not (Yes, No, No internet service)
-- Contract: The contract term of the customer (Month-to-month, One year, Two year)
-- PaperlessBilling: Whether the customer has paperless billing or not (Yes, No)
-- PaymentMethod: The customer’s payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card
-- MonthlyCharges: The amount charged to the customer monthly
-- TotalCharges: The total amount charged to the customer
-- Churn: Whether the customer churned or not (Yes or No)
 
----
+The dataset includes:
+- Customer demographics (gender, senior citizen, etc.)
+- Account information (tenure, contract type, payment method)
+- Services (internet, phone, streaming)
+- Churn status
+
 
 ## SQL Workflow
 
@@ -58,7 +40,7 @@ The SQL analysis is divided into three stages:
 
  **Data Cleaning**
   - Handling null values  
-  - Standardizing and transforming variables  
+  - Standardising and transforming variables  
 
  **Data Analysis**
   Key analyses performed:
@@ -66,8 +48,8 @@ The SQL analysis is divided into three stages:
 - Churn vs tenure distribution  
 - Impact of monthly charges on churn  
 - Churn by payment method and services (Internet and Phone)
-- Churn by demographics (patenr, gender etc)
-- Characteristics of churn customers (tenure/monhtly payments etc) 
+- Churn by demographics (partner, gender etc)
+- Characteristics of churn customers (tenure/monthly payments etc) 
 
 ---
 
@@ -84,7 +66,7 @@ Provides a high-level summary of total customers, churn rate, and key KPIs.
 ### Churn Behaviour Analysis
 <img width="593" height="334" alt="dashboard2" src="https://github.com/user-attachments/assets/d5dd24da-406a-4e0b-ad8d-8c55283c91f2" />
 
-Breaks down churn behaviour by monthly payments and tenure groups whilst considering customer information such as dependents, partner and senior citizins
+Breaks down churn behaviour by monthly payments and tenure groups whilst considering customer information such as dependents, partner and senior citizens
 
 ---
 
@@ -96,13 +78,12 @@ Identifies the effect of protection services on churn rate by billing method and
 ---
 
 ## Key Insights
-- Customers on month-to-month contracts have significantly higher churn rates  
-- Higher monthly charges are associated with increased churn  
-- Customers with short tenure are more likely to churn  
-- Electronic check payment method shows higher churn behavior
-- Customers with at least one protection service decreases churn, taking mutiple significantly lowers churn rate
+- Customers on month-to-month contracts churn at significantly higher rates than long-term contracts
+- Customers with high monthly charges and low tenure are the highest-risk segment
+- Electronic check users show consistently higher churn, suggesting payment friction
+- Customers with multiple protection services have significantly lower churn, indicating service bundling improves retention
 - Paperless billing has higher churn rates
-
+  
 ---
 
 ## Business Recommendations
@@ -110,7 +91,7 @@ Identifies the effect of protection services on churn rate by billing method and
 - Offer targeted retention incentives for high-risk segments  
 - Improve onboarding experience for new customers  
 - Review pricing strategies for high-charge customers
-- Offer protection service package that includes all or mutiple protection services
+- Offer protection service package that includes all or multiple protection services
 
 ---
 
@@ -123,7 +104,7 @@ Identifies the effect of protection services on churn rate by billing method and
 ---
 
 ## Future Improvements
-- Add predictive modeling for churn prediction  
+- Add predictive modelling for churn prediction  
 - Deploy dashboard online  
 - Automate data pipeline  
 
