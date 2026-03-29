@@ -21,8 +21,8 @@ This project performs an end-to-end analysis of customer churn in a telecom comp
 ---
 
 ## Dataset
-- Source: Kaggle – Telco Customer Churn Dataset
--  
+Source: Kaggle – Telco Customer Churn Dataset
+   
 Colomns:
 - customerID
 - gender: Whether the customer is a male or a female
