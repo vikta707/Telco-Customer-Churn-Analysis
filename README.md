@@ -97,8 +97,8 @@ Identifies the effect of protection services on churn rate by billing method and
 ## Machine Learning Workflow (Python Extension)
 To transition from descriptive insights to predictive power, I built a robust machine learning pipeline in Python.
 
-### 1. Preprocessing Pipeline
-Using `scikit-learn`, I engineered a reproducible pipeline to automate data preparation and completely prevent data leakage:
+### 1. Preprocessing Data
+Using `Colomn Transformer` to preprocess the data:
 - Split the dataset into stratified train/test sets to maintain class balance.
 - Scaled numerical features (`tenure`, `MonthlyCharges`) using `StandardScaler`.
 - Encoded categorical variables using `OneHotEncoder`.
